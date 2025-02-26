@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="imagenes/descarga.svg">
+    <title>Taproom | WAYAYO</title>
+    <style>
+        body {
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f1e5;
+        }
+        header {
+            background-color: #8b5a2b;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        nav {
+            background-color: #654321;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+            padding: 20px;
+            padding-top: 60px;
+        }
+        .section {
+            background-color: #e0c4a8;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .menu {
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            padding-bottom: 40px;
+        }
+        .menu-item {
+            background-color: #f0a00c;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .menu-item img {
+            width: 250px;
+            height: auto;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #8b5a2b;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Cervezeria Artesanal</h1>
+        <h1 style="font-size: 4em;">WAYAYO</h1>
+        <p style="font-size: 2em;">Descubre el sabor auténtico de la cerveza artesanal</p>
+    </header>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="menu.html">Taproom</a>
+        <a href="tienda.html">Tienda</a>
+        
+    </nav>
+    <div class="container section" id="inicio">
+        <h2 style="text-align: center; font-size: 2em; background-color: #8b592b69;">BEBIDAS</h2>
+        <p style="text-align: center; font-size: 1.5em;">Adapta tu oferta a la época del año. En verano, prioriza bebidas frías y refrescantes; en invierno, opciones calientes y reconfortantes.</p>
+        
+    </div>
+    <div class="container section">
+        <h2 id="tienda" style="font-size: 4em; text-align: center;">Tienda</h2>
+        <div class="menu">
+            <div class="menu-item"><img src="imagenes/M1.png" alt="Hamburguesa Artesanal"><p style="font-size: 2em;">Hamburguesa Artesanal - S/. 18.00</p></div>
+            <div class="menu-item"><img src="imagenes/M2.png" alt="Alitas BBQ"><p style="font-size: 2em;">Ceviche - S/. 17.50</p></div>
+            <div class="menu-item"><img src="imagenes/M3.webp" alt="Papas Fritas"><p style="font-size: 2em;">Trucha Frita - S/. 14.00</p></div>
+            <div class="menu-item"><img src="imagenes/M4.gif" alt="Tacos de Carne"><p style="font-size: 2em;">Rocoto Relleno - S/. 19.00</p></div>
+            <div class="menu-item"><img src="imagenes/M5.jpg" alt="Nachos con Queso"><p style="font-size: 2em;">Pachamanca - S/. 16.50</p></div>
+            <div class="menu-item"><img src="imagenes/M6.jpg" alt="Empanadas"><p style="font-size: 2em;">Mondongo - S/. 15.00</p></div>
+            <div class="menu-item"><img src="imagenes/M7.webp" alt="Quesadillas"><p style="font-size: 2em;">Costillar - S/. 17.00</p></div>
+        </div>
+    </div>
+    <footer>
+        <p id="contacto" ><a style="font-size: 2em;">Número de contacto // 934 523 675</a></p>
+        <p style="font-size: 2em;">ATENCIÓN: DE LUNES A SÁBADO</p>
+        <p style="font-size: 2em;">DE 6:00PM A 10:00PM</p>
+        <p style="font-size: 2em;">=-=-=-=-=-=-=-=-=-=-=-=-=</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="imagenes/descarga.svg">
+    <title>Tienda | WAYAYO</title>
+    <style>
+        body {
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f1e5;
+        }
+        header {
+            background-color: #f0a00c;
+            color: rgb(0, 0, 0);
+            text-align: center;
+            padding: 1rem;
+        }
+        nav {
+            background-color: #0f6e43;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            padding-top: 60px;
+            
+        }
+        .section {
+            background-color: #e0c4a8;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+            
+        }
+        .menu {
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            padding-bottom: 50px;
+        }
+        .menu-item {
+            background-color: #e0c4a8;
+            padding: 10px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .menu-item img {
+            width: 250px;
+            height: 90%;
+
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #0f6e43;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 style="font-size: 2em;">Cervezeria Artesanal</h1>
+        <h1 style="font-size: 3em;">WAYAYO</h1>
+        <p style="font-size: 2em;">Descubre el sabor auténtico de la cerveza artesanal</p>
+    </header>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="menu.html">Taproom</a>
+        <a href="tienda.html">Tienda</a>
+        
+    </nav>
+    <div class="container section">
+        <h2 id="menu" style="font-size: 2em; text-align: center;">BEBIDAS DISPONIBLES</h2>
+        <div class="menu">
+            <div class="menu-item"><img src="imagenes/t1.webp" alt="Cerveza Rubia"><p style="font-size: 2em;">Cerveza Rubia - S/. 5.00</p></div>
+            <div class="menu-item"><img src="imagenes/t2.webp" alt="Cerveza Negra"><p style="font-size: 2em;">Cerveza Negra - S/. 6.00</p></div>
+            <div class="menu-item"><img src="imagenes/t3.png" alt="Cerveza Roja"><p style="font-size: 2em;">Cerveza Roja - S/. 5.50</p></div>
+            <div class="menu-item"><img src="imagenes/t4.png" alt="Cerveza IPA"><p style="font-size: 2em;">Cerveza IPA - S/. 7.00</p></div>
+            <div class="menu-item"><img src="imagenes/t5.webp" alt="Cerveza Porter"><p style="font-size: 2em;">Cerveza Porter - S/. 6.50</p></div>
+            <div class="menu-item"><img src="imagenes/t5.webp" alt="Cerveza Stout"><p style="font-size: 2em;">Cerveza Stout - S/. 7.50</p></div>
+            <div class="menu-item"><img src="imagenes/t6.png" alt="Cerveza Pilsner"><p style="font-size: 2em;">Cerveza Pilsner - S/. 5.50</p></div>
+            <div class="menu-item"><img src="imagenes/t7.png" alt="Cerveza Amber"><p style="font-size: 2em;">Cerveza Amber - S/. 6.00</p></div>
+        </div>
+    </div>
+    <footer>
+        <p id="contacto" ><a style="font-size: 2em;">Número de contacto // 934 523 675</a></p>
+        <p style="font-size: 2em;">ATENCIÓN: DE LUNES A SÁBADO</p>
+        <p style="font-size: 2em;">DE 6:00PM A 10:00PM</p>
+        <p style="font-size: 2em;">=-=-=-=-=-=-=-=-=-=-=-=-=</p>
+    </footer>
+</body>
+</html>
